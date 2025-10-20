@@ -1,0 +1,38 @@
+.vr-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 103px;
+}
+
+h1,
+.of {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 46px;
+  line-height: 100%;
+  color: white;
+}
+
+#dive {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 100%;
+  background: -webkit-linear-gradient(#C0B7E8, #8176AF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#vr {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 46px;
+  line-height: 100%;
+  background: -webkit-linear-gradient(#C0B7E8, #8176AF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
