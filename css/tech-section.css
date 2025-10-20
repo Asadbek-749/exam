@@ -1,0 +1,42 @@
+.tech {
+  margin: 142px 29px 142px 60px ;
+}
+
+.tech-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* justify-content: center; */
+}
+
+.tech-title {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding-bottom: 11px;
+}
+
+.tech-h3 {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.tech-company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

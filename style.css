@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +52,6 @@ nav {
   font-weight: 700;
   font-style: Bold;
   font-size: 12px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   color: white;
@@ -62,23 +66,25 @@ nav {
   width: 154px;
   height: 48px;
   padding: 17px 38px 14px 34px;
-  border-width: 2px;
-  border-radius: 40px;
   border: 2px solid #FFFFFF;
-  font-family: Montserrat;
+  border-radius: 40px;
+  background: transparent;
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
-  font-style: Bold;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: #FFFFFF;
-  transition: 0.3 ease;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .login-contact:hover {
-  background-color: #130554;
-  border: none;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #010006;
+  box-shadow: 0 0 10px rgba(192, 183, 232, 0.4);
 }
+
 
 .login-join {
   width: 155px;
@@ -88,14 +94,90 @@ nav {
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
   font-family: Montserrat;
   font-weight: 700;
-  font-style: Bold;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: #343045;
-  transition: 0.3 ease;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .login-join:hover {
+  color: #fff;
+  background: linear-gradient(90deg, #C0B7E8 0%, #8176AF 100%);
+  box-shadow: 0 0 12px #C0B7E8;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-link a {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
   color: white;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.social span {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 100%;
+  color: white;
+}
+
+.social-icon {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon img {
+  width: 32px;
+  height: 32px;
+}
+
+footer hr {
+  margin-top: 79px;
+  margin-bottom: 49px;
+  width: 1269px;
+  border: none;
+  height: 1px;
+  background: linear-gradient(270deg, #343045 0%, #C0B7E8 34.9%, #8176AF 68.75%, #343045 100%);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px
+}
+
+.footer-bottom p {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 13%;
+  color: white;
+
 }

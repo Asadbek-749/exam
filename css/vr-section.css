@@ -21,9 +21,7 @@ h1,
   font-style: Bold;
   font-size: 40px;
   line-height: 100%;
-  background: -webkit-linear-gradient(#C0B7E8, #8176AF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #8176AF;
 }
 
 #vr {
@@ -32,7 +30,134 @@ h1,
   font-style: Bold;
   font-size: 46px;
   line-height: 100%;
-  background: -webkit-linear-gradient(#C0B7E8, #8176AF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #8176AF;
+}
+
+.vr-info-text {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  padding-top: 36px;
+}
+
+.vr-info-link {
+  margin-top: 66px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.vr-link,
+.footer-btn {
+  width: 214px;
+  height: 48px;
+  padding: 17px 43px 16px 38px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  border: none;
+  color: #343045;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.vr-link:hover {
+  color: #fff;
+  background: linear-gradient(90deg, #C0B7E8 0%, #8176AF 100%);
+  box-shadow: 0 0 12px rgba(192, 183, 232, 0.6);
+}
+
+.vr-link:hover {
+  color: #fff;
+  background: linear-gradient(90deg, #C0B7E8 0%, #8176AF 100%);
+  box-shadow: 0 0 12px rgba(192, 183, 232, 0.6);
+}
+
+
+.vr-link img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Contact Section Style  */
+.contact {
+  margin-top: 153px;
+  margin-bottom: 115px;
+  padding: 0 30px;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 82px;
+}
+
+.address,
+.call,
+.gmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  width: 349px;
+  height: 109px;
+  padding: 21px 40px 18px 36px;
+  border-radius: 90px;
+  background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.address:hover {
+  box-shadow: 0 8px 25px rgba(192, 183, 232, 0.6);
+}
+
+.call:hover {
+  box-shadow: 0 8px 25px rgba(192, 183, 232, 0.6);
+}
+
+.gmail:hover {
+  box-shadow: 0 8px 25px rgba(192, 183, 232, 0.6);
+}
+
+.address a,
+.call a,
+.gmail a {
+  display: flex;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  color: #FFFFFF;
+  gap: 34px;
+  transition: all 0.3s ease;
+}
+
+.address img {
+  width: 70px;
+  height: 70px;
+}
+
+.address a:hover {
+  transform: scale(1.05);
+}
+
+.call a:hover {
+  transform: scale(1.05);
+}
+
+.gmail a:hover {
+  transform: scale(1.05);
 }
